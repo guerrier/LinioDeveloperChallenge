@@ -12,9 +12,21 @@
 		9419271421F1004F0076AC21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9419271221F1004F0076AC21 /* Main.storyboard */; };
 		9419271621F100560076AC21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9419271521F100560076AC21 /* Assets.xcassets */; };
 		9419271921F100560076AC21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9419271721F100560076AC21 /* LaunchScreen.storyboard */; };
+		9419272221F13F560076AC21 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419272121F13F560076AC21 /* Product.swift */; };
+		9419272421F147B20076AC21 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419272321F147B20076AC21 /* User.swift */; };
+		9419272621F149570076AC21 /* WishList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419272521F149570076AC21 /* WishList.swift */; };
+		9419272921F7A2330076AC21 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419272821F7A2330076AC21 /* Api.swift */; };
+		9419272D21F7A2DF0076AC21 /* LinioProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419272C21F7A2DF0076AC21 /* LinioProvider.swift */; };
+		94367DFC21F7AA5100466B5A /* String+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94367DFB21F7AA5100466B5A /* String+Utilities.swift */; };
+		94367DFF21F7ABEF00466B5A /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94367DFE21F7ABEF00466B5A /* ApiManager.swift */; };
+		94367E0321F7C08300466B5A /* Linio+Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94367E0221F7C08300466B5A /* Linio+Log.swift */; };
+		D6F3F892C5F30C77F7331B4D /* Pods_LinioDeveloperChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441380034ECC2A9DA88722AB /* Pods_LinioDeveloperChallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3ADF2FBF44551F1C3836EA83 /* Pods-LinioDeveloperChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinioDeveloperChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinioDeveloperChallenge/Pods-LinioDeveloperChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		441380034ECC2A9DA88722AB /* Pods_LinioDeveloperChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinioDeveloperChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5301A704749ED8D34398CDF8 /* Pods-LinioDeveloperChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinioDeveloperChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinioDeveloperChallenge/Pods-LinioDeveloperChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		9419270B21F1004E0076AC21 /* LinioDeveloperChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinioDeveloperChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9419270E21F1004F0076AC21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9419271021F1004F0076AC21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,14 @@
 		9419271521F100560076AC21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9419271821F100560076AC21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9419271A21F100560076AC21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9419272121F13F560076AC21 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		9419272321F147B20076AC21 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9419272521F149570076AC21 /* WishList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishList.swift; sourceTree = "<group>"; };
+		9419272821F7A2330076AC21 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		9419272C21F7A2DF0076AC21 /* LinioProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinioProvider.swift; sourceTree = "<group>"; };
+		94367DFB21F7AA5100466B5A /* String+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Utilities.swift"; sourceTree = "<group>"; };
+		94367DFE21F7ABEF00466B5A /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		94367E0221F7C08300466B5A /* Linio+Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Linio+Log.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6F3F892C5F30C77F7331B4D /* Pods_LinioDeveloperChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		751ABCEDD4511AB767087727 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5301A704749ED8D34398CDF8 /* Pods-LinioDeveloperChallenge.debug.xcconfig */,
+				3ADF2FBF44551F1C3836EA83 /* Pods-LinioDeveloperChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9419270221F1004E0076AC21 = {
 			isa = PBXGroup;
 			children = (
 				9419270D21F1004F0076AC21 /* LinioDeveloperChallenge */,
 				9419270C21F1004E0076AC21 /* Products */,
+				751ABCEDD4511AB767087727 /* Pods */,
+				EC4D44E688F3B0DA008335CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +86,10 @@
 		9419270D21F1004F0076AC21 /* LinioDeveloperChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				94367DFA21F7AA2300466B5A /* Helpers */,
+				9419272A21F7A2A80076AC21 /* Api */,
+				9419272721F7A1580076AC21 /* Constants */,
+				9419272021F139890076AC21 /* Models */,
 				9419270E21F1004F0076AC21 /* AppDelegate.swift */,
 				9419271021F1004F0076AC21 /* ViewController.swift */,
 				9419271221F1004F0076AC21 /* Main.storyboard */,
@@ -64,6 +100,66 @@
 			path = LinioDeveloperChallenge;
 			sourceTree = "<group>";
 		};
+		9419272021F139890076AC21 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9419272121F13F560076AC21 /* Product.swift */,
+				9419272321F147B20076AC21 /* User.swift */,
+				9419272521F149570076AC21 /* WishList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9419272721F7A1580076AC21 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9419272821F7A2330076AC21 /* Api.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		9419272A21F7A2A80076AC21 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				94367DFD21F7ABDB00466B5A /* Manager */,
+				9419272B21F7A2C10076AC21 /* Provider */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		9419272B21F7A2C10076AC21 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				9419272C21F7A2DF0076AC21 /* LinioProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		94367DFA21F7AA2300466B5A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				94367DFB21F7AA5100466B5A /* String+Utilities.swift */,
+				94367E0221F7C08300466B5A /* Linio+Log.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		94367DFD21F7ABDB00466B5A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				94367DFE21F7ABEF00466B5A /* ApiManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		EC4D44E688F3B0DA008335CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				441380034ECC2A9DA88722AB /* Pods_LinioDeveloperChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9419271D21F100560076AC21 /* Build configuration list for PBXNativeTarget "LinioDeveloperChallenge" */;
 			buildPhases = (
+				3048864255E078DBE44CACC7 /* [CP] Check Pods Manifest.lock */,
 				9419270721F1004E0076AC21 /* Sources */,
 				9419270821F1004E0076AC21 /* Frameworks */,
 				9419270921F1004E0076AC21 /* Resources */,
+				68A52D04FF75034D6EF2623E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +228,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3048864255E078DBE44CACC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinioDeveloperChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68A52D04FF75034D6EF2623E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LinioDeveloperChallenge/Pods-LinioDeveloperChallenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ModelMapper/Mapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya-ModelMapper/Moya_ModelMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ModelMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinioDeveloperChallenge/Pods-LinioDeveloperChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9419270721F1004E0076AC21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9419272921F7A2330076AC21 /* Api.swift in Sources */,
+				94367DFF21F7ABEF00466B5A /* ApiManager.swift in Sources */,
+				9419272421F147B20076AC21 /* User.swift in Sources */,
 				9419271121F1004F0076AC21 /* ViewController.swift in Sources */,
+				94367E0321F7C08300466B5A /* Linio+Log.swift in Sources */,
+				9419272D21F7A2DF0076AC21 /* LinioProvider.swift in Sources */,
 				9419270F21F1004F0076AC21 /* AppDelegate.swift in Sources */,
+				9419272621F149570076AC21 /* WishList.swift in Sources */,
+				9419272221F13F560076AC21 /* Product.swift in Sources */,
+				94367DFC21F7AA5100466B5A /* String+Utilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,10 +441,13 @@
 		};
 		9419271E21F100560076AC21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5301A704749ED8D34398CDF8 /* Pods-LinioDeveloperChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKMTJ2P89J;
 				INFOPLIST_FILE = LinioDeveloperChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,10 +461,13 @@
 		};
 		9419271F21F100560076AC21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ADF2FBF44551F1C3836EA83 /* Pods-LinioDeveloperChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKMTJ2P89J;
 				INFOPLIST_FILE = LinioDeveloperChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

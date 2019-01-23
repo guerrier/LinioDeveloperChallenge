@@ -1,0 +1,6 @@
+framework module Pods_LinioDeveloperChallenge {
+  umbrella header "Pods-LinioDeveloperChallenge-umbrella.h"
+
+  export *
+  module * { export * }
+}
