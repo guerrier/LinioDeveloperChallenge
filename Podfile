@@ -5,5 +5,6 @@ target 'LinioDeveloperChallenge' do
   
   pod 'Moya', '~> 11.0'
   pod 'Moya-ModelMapper', '~> 7.1.0'
+  pod 'SDWebImage', '~> 4.0'
   
 end

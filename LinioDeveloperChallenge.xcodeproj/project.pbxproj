@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9406F27821FA6FB700DF7CE0 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9406F27721FA6FB700DF7CE0 /* ProductCollectionViewCell.swift */; };
+		9406F27A21FAA48B00DF7CE0 /* WishListHeaderCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9406F27921FAA48B00DF7CE0 /* WishListHeaderCollectionView.swift */; };
 		9419270F21F1004F0076AC21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419270E21F1004F0076AC21 /* AppDelegate.swift */; };
-		9419271121F1004F0076AC21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419271021F1004F0076AC21 /* ViewController.swift */; };
+		9419271121F1004F0076AC21 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419271021F1004F0076AC21 /* FavoritesViewController.swift */; };
 		9419271421F1004F0076AC21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9419271221F1004F0076AC21 /* Main.storyboard */; };
 		9419271621F100560076AC21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9419271521F100560076AC21 /* Assets.xcassets */; };
 		9419271921F100560076AC21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9419271721F100560076AC21 /* LaunchScreen.storyboard */; };
@@ -20,6 +22,8 @@
 		94367DFC21F7AA5100466B5A /* String+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94367DFB21F7AA5100466B5A /* String+Utilities.swift */; };
 		94367DFF21F7ABEF00466B5A /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94367DFE21F7ABEF00466B5A /* ApiManager.swift */; };
 		94367E0321F7C08300466B5A /* Linio+Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94367E0221F7C08300466B5A /* Linio+Log.swift */; };
+		94367E0721FA4C0500466B5A /* FavoritesViewController+UICollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94367E0621FA4C0500466B5A /* FavoritesViewController+UICollectionViewDataSource.swift */; };
+		94367E0921FA512300466B5A /* WishListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94367E0821FA512300466B5A /* WishListCollectionViewCell.swift */; };
 		D6F3F892C5F30C77F7331B4D /* Pods_LinioDeveloperChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441380034ECC2A9DA88722AB /* Pods_LinioDeveloperChallenge.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,9 +31,11 @@
 		3ADF2FBF44551F1C3836EA83 /* Pods-LinioDeveloperChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinioDeveloperChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinioDeveloperChallenge/Pods-LinioDeveloperChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		441380034ECC2A9DA88722AB /* Pods_LinioDeveloperChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinioDeveloperChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5301A704749ED8D34398CDF8 /* Pods-LinioDeveloperChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinioDeveloperChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinioDeveloperChallenge/Pods-LinioDeveloperChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		9406F27721FA6FB700DF7CE0 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		9406F27921FAA48B00DF7CE0 /* WishListHeaderCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListHeaderCollectionView.swift; sourceTree = "<group>"; };
 		9419270B21F1004E0076AC21 /* LinioDeveloperChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinioDeveloperChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9419270E21F1004F0076AC21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9419271021F1004F0076AC21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9419271021F1004F0076AC21 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		9419271321F1004F0076AC21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9419271521F100560076AC21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9419271821F100560076AC21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,6 +48,8 @@
 		94367DFB21F7AA5100466B5A /* String+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Utilities.swift"; sourceTree = "<group>"; };
 		94367DFE21F7ABEF00466B5A /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		94367E0221F7C08300466B5A /* Linio+Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Linio+Log.swift"; sourceTree = "<group>"; };
+		94367E0621FA4C0500466B5A /* FavoritesViewController+UICollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoritesViewController+UICollectionViewDataSource.swift"; sourceTree = "<group>"; };
+		94367E0821FA512300466B5A /* WishListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +99,11 @@
 				9419272721F7A1580076AC21 /* Constants */,
 				9419272021F139890076AC21 /* Models */,
 				9419270E21F1004F0076AC21 /* AppDelegate.swift */,
-				9419271021F1004F0076AC21 /* ViewController.swift */,
+				9419271021F1004F0076AC21 /* FavoritesViewController.swift */,
+				9406F27921FAA48B00DF7CE0 /* WishListHeaderCollectionView.swift */,
+				94367E0621FA4C0500466B5A /* FavoritesViewController+UICollectionViewDataSource.swift */,
+				94367E0821FA512300466B5A /* WishListCollectionViewCell.swift */,
+				9406F27721FA6FB700DF7CE0 /* ProductCollectionViewCell.swift */,
 				9419271221F1004F0076AC21 /* Main.storyboard */,
 				9419271521F100560076AC21 /* Assets.xcassets */,
 				9419271721F100560076AC21 /* LaunchScreen.storyboard */,
@@ -265,6 +277,7 @@
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya-ModelMapper/Moya_ModelMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -275,6 +288,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ModelMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -288,15 +302,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94367E0721FA4C0500466B5A /* FavoritesViewController+UICollectionViewDataSource.swift in Sources */,
 				9419272921F7A2330076AC21 /* Api.swift in Sources */,
 				94367DFF21F7ABEF00466B5A /* ApiManager.swift in Sources */,
 				9419272421F147B20076AC21 /* User.swift in Sources */,
-				9419271121F1004F0076AC21 /* ViewController.swift in Sources */,
+				9419271121F1004F0076AC21 /* FavoritesViewController.swift in Sources */,
 				94367E0321F7C08300466B5A /* Linio+Log.swift in Sources */,
+				9406F27821FA6FB700DF7CE0 /* ProductCollectionViewCell.swift in Sources */,
 				9419272D21F7A2DF0076AC21 /* LinioProvider.swift in Sources */,
+				9406F27A21FAA48B00DF7CE0 /* WishListHeaderCollectionView.swift in Sources */,
 				9419270F21F1004F0076AC21 /* AppDelegate.swift in Sources */,
 				9419272621F149570076AC21 /* WishList.swift in Sources */,
 				9419272221F13F560076AC21 /* Product.swift in Sources */,
+				94367E0921FA512300466B5A /* WishListCollectionViewCell.swift in Sources */,
 				94367DFC21F7AA5100466B5A /* String+Utilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

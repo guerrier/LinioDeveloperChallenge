@@ -14,10 +14,14 @@ PODS:
     - Alamofire (~> 4.1)
     - Result (~> 3.0)
   - Result (3.2.4)
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
 
 DEPENDENCIES:
   - Moya (~> 11.0)
   - Moya-ModelMapper (~> 7.1.0)
+  - SDWebImage (~> 4.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -26,6 +30,7 @@ SPEC REPOS:
     - Moya
     - Moya-ModelMapper
     - Result
+    - SDWebImage
 
 SPEC CHECKSUMS:
   Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
@@ -33,7 +38,8 @@ SPEC CHECKSUMS:
   Moya: a725035953bc1c0eb1be505ab903984501d82440
   Moya-ModelMapper: 35209257d9e886cedf91289559a41723f5fbd095
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
 
-PODFILE CHECKSUM: 07b0f08d07b8c406ae8d652ade944f0dbfdbfc32
+PODFILE CHECKSUM: b66d85d0a991e2beaa9d034e4db303e2aec15aaa
 
 COCOAPODS: 1.5.3
