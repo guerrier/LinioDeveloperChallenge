@@ -24,7 +24,7 @@
                                 <edgeInsets key="layoutMargins" top="8" left="20" bottom="8" right="20"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="OV3-Ap-HpS">
                                     <size key="itemSize" width="174" height="174"/>
-                                    <size key="headerReferenceSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="375" height="50"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                                 </collectionViewFlowLayout>
@@ -186,18 +186,28 @@
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
-                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="RpJ-Yv-okB">
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WishListHeader" id="RpJ-Yv-okB" customClass="WishListHeaderCollectionView" customModule="LinioDeveloperChallenge" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60x-Cz-Ai3">
-                                            <rect key="frame" x="166" y="15" width="42" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Todos mis favoritos()" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60x-Cz-Ai3">
+                                            <rect key="frame" x="8" y="14.5" width="359" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="359" id="7MG-E3-CzY"/>
+                                                <constraint firstAttribute="height" constant="21" id="BDn-OE-q6Y"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="60x-Cz-Ai3" firstAttribute="centerY" secondItem="RpJ-Yv-okB" secondAttribute="centerY" id="Ahe-e1-LZM"/>
+                                        <constraint firstItem="60x-Cz-Ai3" firstAttribute="centerX" secondItem="RpJ-Yv-okB" secondAttribute="centerX" id="yWv-ve-HLN"/>
+                                    </constraints>
+                                    <connections>
+                                        <outlet property="title" destination="60x-Cz-Ai3" id="ohs-bJ-3IQ"/>
+                                    </connections>
                                 </collectionReusableView>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="D0K-0S-5YB"/>

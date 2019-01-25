@@ -19,7 +19,8 @@ class FavoritesViewController: UIViewController, UICollectionViewDelegateFlowLay
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+        favoritesColletionViewController.register(WishListHeaderCollectionView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader , withReuseIdentifier: "WishListHeader")
+
         getFavoritesProducts()
     }
     

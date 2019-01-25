@@ -8,6 +8,7 @@
 
 import UIKit
 
-class WishListCollectionView : UICollectionReusableView{
+class WishListHeaderCollectionView : UICollectionReusableView{
+    @IBOutlet weak var title: UILabel!
     
 }
