@@ -191,11 +191,7 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Todos mis favoritos()" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60x-Cz-Ai3">
-                                            <rect key="frame" x="8" y="14.5" width="359" height="21"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="359" id="7MG-E3-CzY"/>
-                                                <constraint firstAttribute="height" constant="21" id="BDn-OE-q6Y"/>
-                                            </constraints>
+                                            <rect key="frame" x="107.5" y="14.5" width="160.5" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -206,7 +202,7 @@
                                         <constraint firstItem="60x-Cz-Ai3" firstAttribute="centerX" secondItem="RpJ-Yv-okB" secondAttribute="centerX" id="yWv-ve-HLN"/>
                                     </constraints>
                                     <connections>
-                                        <outlet property="title" destination="60x-Cz-Ai3" id="ohs-bJ-3IQ"/>
+                                        <outlet property="titleHeader" destination="60x-Cz-Ai3" id="0MX-UL-Wx4"/>
                                     </connections>
                                 </collectionReusableView>
                                 <connections>

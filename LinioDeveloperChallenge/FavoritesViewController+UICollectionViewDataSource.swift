@@ -52,18 +52,15 @@ extension FavoritesViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-        guard let header = (favoritesColletionViewController.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "WishListHeader", for: indexPath) as? WishListHeaderCollectionView) else{
-            return UICollectionReusableView()
-        }
+        let header = favoritesColletionViewController.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "WishListHeader", for: indexPath) as! WishListHeaderCollectionView
         
         switch indexPath.section {
         case 1:
-            header.title.text = String(format: "Mis Favoritos(%d)", products.count)
-            return header
+            header.titleHeader?.text = String(format: "Todos mis favoritos(%d)", products.count)
             break
         default:
-            return UICollectionReusableView()
+            header.titleHeader?.text = ""
         }
-        
+        return header
     }
 }

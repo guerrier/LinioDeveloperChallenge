@@ -9,6 +9,6 @@
 import UIKit
 
 class WishListHeaderCollectionView : UICollectionReusableView{
-    @IBOutlet weak var title: UILabel!
     
+    @IBOutlet weak var titleHeader: UILabel!
 }
